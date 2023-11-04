@@ -1,0 +1,45 @@
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    position:absolute;
+    top:200px;
+    left:20%;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 9px;
+    border: 0.1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
