@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+#!/bin/sh
+# This script will be run before each commit
+npm run lint
