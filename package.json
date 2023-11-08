@@ -22,5 +22,15 @@
     "mongoose": "^8.0.0",
     "nodemailer": "^6.9.7",
     "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   }
 }
