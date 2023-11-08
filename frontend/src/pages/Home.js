@@ -4,8 +4,8 @@ import StudentLoginForm from '../components/StudentLoginForm';
 import AdminLogin from '../components/adminLogin';
 
 const Home = () => {
-    const myVariable = 678797
-    console.log(myVar)
+    // const myVariable = 678797
+    // console.log(myVar)
 
     const h1Style = {
         color: 'Black',
