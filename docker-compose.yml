@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: react-ui
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+    networks:
+      - mern-network
+
+
+  backend:
+    build: .
+    container_name: node-api
+    restart: always
+    ports:
+      - "4003:4003"
+    networks:
+      - mern-network
+  
+networks:
+  mern-network:
+    driver: bridge
